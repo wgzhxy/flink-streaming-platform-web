@@ -23,7 +23,6 @@ public class WaitForPoolConfig {
 
     private static long keepAliveTime = 10;
 
-
     private static ThreadPoolExecutor threadPoolExecutor;
 
     private static WaitForPoolConfig alarmPoolConfig;

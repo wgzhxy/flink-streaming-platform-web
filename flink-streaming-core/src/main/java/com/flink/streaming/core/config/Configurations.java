@@ -14,7 +14,6 @@ import org.apache.flink.table.api.TableEnvironment;
 @Slf4j
 public class Configurations {
 
-
     /**
      * 单个设置Configuration
      *

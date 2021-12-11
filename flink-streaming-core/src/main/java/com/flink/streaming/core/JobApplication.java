@@ -95,10 +95,7 @@ public class JobApplication {
             System.err.println("任务执行失败:" + e.getMessage());
             log.error("任务执行失败：", e);
         }
-
-
     }
-
 
     private static JobRunParam buildParam(String[] args) throws Exception {
         ParameterTool parameterTool = ParameterTool.fromArgs(args);

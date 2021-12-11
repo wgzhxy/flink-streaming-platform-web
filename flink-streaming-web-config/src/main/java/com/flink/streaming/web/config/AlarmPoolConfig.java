@@ -26,7 +26,6 @@ public class AlarmPoolConfig {
 
     private static long keepAliveTime = 10;
 
-
     private static ThreadPoolExecutor threadPoolExecutor;
 
     private static AlarmPoolConfig alarmPoolConfig;

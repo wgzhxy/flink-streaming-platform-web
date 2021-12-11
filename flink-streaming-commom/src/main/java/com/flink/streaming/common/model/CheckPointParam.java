@@ -59,6 +59,4 @@ public class CheckPointParam {
      * 支持增量
      */
     private Boolean enableIncremental;
-
-
 }

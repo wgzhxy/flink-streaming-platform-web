@@ -25,7 +25,6 @@ public class SavePointThreadPool {
 
     private static long keepAliveTime = 10;
 
-
     private static ThreadPoolExecutor threadPoolExecutor;
 
     private static SavePointThreadPool asyncThreadPool;
@@ -50,6 +49,4 @@ public class SavePointThreadPool {
     public synchronized ThreadPoolExecutor getThreadPoolExecutor() {
         return threadPoolExecutor;
     }
-
-
 }

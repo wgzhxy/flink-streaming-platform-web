@@ -25,7 +25,6 @@ public class JobThreadPool {
 
     private static long keepAliveTime = 10;
 
-
     private static ThreadPoolExecutor threadPoolExecutor;
 
     private static JobThreadPool asyncThreadPool;
@@ -50,6 +49,4 @@ public class JobThreadPool {
     public synchronized ThreadPoolExecutor getThreadPoolExecutor() {
         return threadPoolExecutor;
     }
-
-
 }

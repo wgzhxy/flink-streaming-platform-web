@@ -97,7 +97,6 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
-
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>

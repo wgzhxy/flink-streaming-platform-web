@@ -14,7 +14,6 @@ import org.springframework.context.annotation.Configuration;
 @Data
 public class CustomConfig {
 
-
     @Value("${server.port}")
     private  Integer webPort;
 }
