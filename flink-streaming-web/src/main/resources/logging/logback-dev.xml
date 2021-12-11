@@ -18,8 +18,6 @@
         </encoder>
     </appender>
 
-
-
     <logger name="org" level="INFO"/>
     <logger name="com.alibaba" level="WARN"/>
     <!--<logger name="springfox" level="ERROR"/>-->
@@ -40,7 +38,6 @@
     <logger name="org.dozer" level="WARN"/>
     <logger name="net.rubyeye.xmemcached" level="WARN"/>
     <logger name="com.google.code" level="WARN"/>
-
 
     <root level="INFO">
         <appender-ref ref="STDOUT"/>
